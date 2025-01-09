@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "api:build": "aspida"
+  },
+  "dependencies": {
+    "@aspida/axios": "^1.14.0",
+    "aspida": "^1.14.0",
+    "axios": "^1.7.7",
+    "nuxt": "^3.13.0",
+    "pinia": "^2.2.2",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vuetify": "^3.7.1"
+  }
+}
