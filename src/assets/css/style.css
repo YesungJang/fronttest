@@ -1,0 +1,21 @@
+body {
+ font-family: "Noto Sans JP", sans-serif;
+ margin: 0;
+/* 方眼紙模様に必須のスタイル */
+background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px)),
+                  linear-gradient(90deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px));
+background-size: 16px 16px;
+background-repeat: repeat;
+background-position: center center;
+}
+
+body > div > div {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+#vue-inspector-container {
+    display: none !important;
+}
